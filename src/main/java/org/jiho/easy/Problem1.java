@@ -4,9 +4,6 @@ import java.util.Arrays;
 
 public class Problem1 {
 
-    public Problem1() {
-    }
-
     public int[] twoSum(int[] nums, int target) {
         Integer[] numsInteger = Arrays.stream(nums).boxed().toArray(Integer[]::new);
         Arrays.sort(numsInteger);
